@@ -58,7 +58,6 @@ i {
 
 .cards {
   display: grid;
-  /* mudar @media */
   grid-template-columns: 1fr 1fr 1fr;
   padding-inline: 4rem;
   gap: 2rem;
@@ -91,7 +90,7 @@ a {
 }
 
 .card:hover{
-  background: #596aff;
+  background: #596affa8;
   color: #ffffff;
 }
 
