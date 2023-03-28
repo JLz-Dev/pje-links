@@ -65,6 +65,16 @@ const siteList = [
     link: 'https://pje.tjes.jus.br/pje2g/login.seam',
   },
   {
+    site: 'TJ SP',
+    name: '1º Grau',
+    link: 'https://esaj.tjsp.jus.br/cpopg/open.do',
+  },
+  {
+    site: 'TJ SP',
+    name: '2º Grau',
+    link: 'https://esaj.tjsp.jus.br/cposg/open.do',
+  },
+  {
     site: 'TRT MA',
     name: '1º Grau',
     link: 'https://pje.trt16.jus.br/primeirograu/login.seam',
