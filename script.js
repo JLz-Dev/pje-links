@@ -75,6 +75,16 @@ const siteList = [
     link: 'https://esaj.tjsp.jus.br/cposg/open.do',
   },
   {
+    site: 'TJ RJ',
+    name: '1º Grau',
+    link: 'https://tjrj.pje.jus.br/1g/login.seam',
+  },
+  {
+    site: 'TJ RJ',
+    name: '2º Grau',
+    link: 'https://tjrj.pje.jus.br/2g/login.seam',
+  },
+  {
     site: 'TRT MA',
     name: '1º Grau',
     link: 'https://pje.trt16.jus.br/primeirograu/login.seam',
