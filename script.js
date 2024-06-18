@@ -37,12 +37,12 @@ const siteList = [
   {
     site: 'TJ PI',
     name: '1º Grau',
-    link: 'https://tjpi.pje.jus.br/1g/login.seam',
+    link: 'https://pje.tjpi.jus.br/1g/login.seam',
   },
   {
     site: 'TJ PI',
     name: '2º Grau',
-    link: 'https://tjpi.pje.jus.br/2g/login.seam',
+    link: 'https://pje.tjpi.jus.br/2g/login.seam',
   },
   {
     site: 'TJ MG',
