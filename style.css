@@ -21,13 +21,12 @@ body {
 
 header {
   background-image: linear-gradient(
-  circle at 68.6% -1.09%, 
-  #e6fffc 0, #d5fff9 8.33%, 
-  #c1fff6 16.67%, #aafff4 25%, 
-  #8ffff3 33.33%, #6efcf2 41.67%, 
-  #3cf2f2 50%, #00e8f3 58.33%, #00def6 66.67%, 
-  #00d5f9 75%, #00cdfe 83.33%, #00c4ff 91.67%, 
-  #00bdff 100%);
+    to right bottom,
+    #85FFBD 0%, 
+    #8e7dff 33%, 
+    #e2287e 66%, 
+    #daf21d 100%
+  );
 
   background-size: 200% 200%;
   animation: float 6s linear infinite alternate;
