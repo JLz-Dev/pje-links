@@ -22,10 +22,10 @@ body {
 header {
   background-image: linear-gradient(
     to right bottom,
-    #85FFBD 0%, 
-    #8e7dff 33%, 
-    #e2287e 66%, 
-    #daf21d 100%
+    #5a15fd 0%, 
+    #360ea1 33%, 
+    #4b3779 66%, 
+    #1770f5 100%
   );
 
   background-size: 200% 200%;
