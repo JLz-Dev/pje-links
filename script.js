@@ -15,6 +15,11 @@ const siteList = [
     link: 'https://jurisconsult.tjma.jus.br/#/home',
   },
   {
+    site: 'STJ',
+    name: 'Consulta',
+    link: 'https://www.stj.jus.br/sites/portalp/Processos/Consulta-Processual'
+  },
+  {
     site: 'TJ PA',
     name: '1º Grau',
     link: 'https://pje.tjpa.jus.br/pje/login.seam',
@@ -105,6 +110,21 @@ const siteList = [
     link: 'https://pje.trt8.jus.br/segundograu/login.seam',
   },
   {
+    site: 'TJ GO',
+    name: '1º Grau',
+    link: 'https://projudi.tjgo.jus.br/BuscaProcesso?PaginaAtual=4',
+  },
+  {
+    site: 'TJ AM',
+    name: '1º Grau',
+    link: 'https://consultasaj.tjam.jus.br/cpopg/open.do',
+  },
+  {
+    site: 'TJ AM',
+    name: '2º Grau',
+    link: 'https://consultasaj.tjam.jus.br/cposgcr/open.do',
+  },
+  {
     site: 'TRF 1',
     name: '1º Grau',
     link: 'https://pje1g.trf1.jus.br/pje/login.seam',
@@ -114,6 +134,12 @@ const siteList = [
     name: '2º Grau',
     link: 'https://pje2g.trf1.jus.br/pje/login.seam',
   },
+  {
+    site: 'TJDFT',
+    name: 'Juriscalc',
+    link: 'https://juriscalc.tjdft.jus.br/publico/calculos',
+  },
+  
 ]
 
 const sites = document.getElementById('cards')
