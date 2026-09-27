@@ -16,6 +16,7 @@
   --page: #f6f4fd;
   --ink: #1c1533;
   --muted: #6b5f8f;
+  --veil: 86%;
 }
 
 body {
@@ -23,7 +24,11 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: var(--page);
+  background-color: var(--page);
+  background-image: linear-gradient(rgba(246, 244, 253, 0.86), rgba(246, 244, 253, 0.86)), url('images/background-960.jpg');
+  background-image: linear-gradient(color-mix(in srgb, var(--page) var(--veil), transparent), color-mix(in srgb, var(--page) var(--veil), transparent)), url('images/background-960.jpg');
+  background-repeat: repeat;
+  background-size: auto;
   color: var(--ink);
 }
 
@@ -319,6 +324,10 @@ a {
 }
 
 @media (max-width: 1000px) {
+  body {
+    background-size: 620px auto;
+  }
+
   .layout {
     grid-template-columns: minmax(0, 1fr);
   }
@@ -328,3 +337,8 @@ a {
   }
 }
 
+@media (min-width: 1001px) {
+  body {
+    background-attachment: fixed;
+  }
+}
