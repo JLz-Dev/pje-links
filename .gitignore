@@ -1,0 +1,5 @@
+# Backups de arquivos de terceiros
+images/*.orig
+
+# Original em resolucao alta; a versao otimizada (background-960.jpg) e a commitada
+images/background.jpeg
