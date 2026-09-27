@@ -131,7 +131,7 @@ input {
 input:focus {
   border-color: var(--state);
   outline: 0;
-  box-shadow: 0 0 0 0.3rem rgba(92, 123, 249, 0.25);
+  box-shadow: 0 0 0 0.3rem rgba(124, 58, 237, 0.25);
 }
 
 .no-match {
@@ -321,6 +321,35 @@ a {
   font-size: 1.2rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+.site-footer {
+  width: 100%;
+  max-width: 128rem;
+  margin: 0 auto 3.2rem;
+  padding: 1.6rem 2.4rem;
+  background: var(--surface);
+  border: 1px solid #dcd5f0;
+  border-radius: 1.2rem;
+  text-align: center;
+  font-size: 1.3rem;
+  color: var(--muted);
+}
+
+.site-footer a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.site-footer a:hover {
+  color: var(--state-hover);
+}
+
+.site-footer a:focus-visible {
+  outline: 0.2rem solid var(--state);
+  outline-offset: 0.2rem;
+  border-radius: 0.2rem;
 }
 
 @media (max-width: 1000px) {
